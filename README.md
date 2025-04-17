@@ -96,3 +96,9 @@ CSV Processing: Escapes special characters, validates format.
 - Booking an occupied room: Reservation is rejected.
 - Importing invalid CSV: Shows an error.
 - Updating room price: Reflected in the table.
+
+  
+## Screenshots
+Login Window:
+![image](https://github.com/user-attachments/assets/ba5a82d4-6097-4a12-a213-c7be06115ab2)
+
