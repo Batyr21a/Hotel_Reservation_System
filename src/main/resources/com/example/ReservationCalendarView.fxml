@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.ReservationCalendarController"
+            style="-fx-padding: 10;" prefWidth="1200" prefHeight="800">
+    <top>
+        <VBox spacing="10">
+            <HBox spacing="10" alignment="CENTER">
+                <padding>
+                    <Insets bottom="10"/>
+                </padding>
+                <Label text="Reservation Calendar" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button fx:id="showFixedPricesButton" text="Fixed Prices" onAction="#showFixedPrices"/>
+                <Button fx:id="showPricesButton" text="Show Price List" onAction="#showPrices"/>
+                <DatePicker fx:id="datePicker"/>
+                <Button text="Refresh" onAction="#updateCalendar"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER">
+                <Button fx:id="prevButton" text="⬅ Back" prefWidth="100"/>
+                <Label fx:id="periodLabel" style="-fx-font-weight: bold; -fx-font-size: 14;" minWidth="200" alignment="CENTER"/>
+                <Button fx:id="nextButton" text="Forward ➡" prefWidth="100"/>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <ScrollPane fitToWidth="true" fitToHeight="true" style="-fx-background-color: white;">
+            <GridPane fx:id="calendarGrid" gridLinesVisible="true" hgap="1" vgap="1" 
+                     style="-fx-background-color: white; -fx-grid-lines-visible: true;">
+                <padding>
+                    <Insets top="5" right="5" bottom="5" left="5"/>
+                </padding>
+                <columnConstraints>
+                    <ColumnConstraints minWidth="150" prefWidth="150" maxWidth="150"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120" fx:id="dayColumn"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                    <ColumnConstraints minWidth="120" prefWidth="120" maxWidth="120"/>
+                </columnConstraints>
+            </GridPane>
+        </ScrollPane>
+    </center>
+</BorderPane>

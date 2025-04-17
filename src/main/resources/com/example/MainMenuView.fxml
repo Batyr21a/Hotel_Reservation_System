@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.fxml.FXMLLoader?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.MainMenuController"
+            style="-fx-padding: 10;">
+    <center>
+        <VBox spacing="10">
+            <TextArea fx:id="outputArea" editable="false" wrapText="true" VBox.vgrow="ALWAYS"/>
+            <TableView fx:id="reservationsTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="roomNumberColumn" text="Room Number"/>
+                    <TableColumn fx:id="roomTypeColumn" text="Room Type"/>
+                    <TableColumn fx:id="guestNameColumn" text="Guest Name"/>
+                    <TableColumn fx:id="guestSurnameColumn" text="Guest Surname"/>
+                    <TableColumn fx:id="checkInColumn" text="Check-in Date"/>
+                    <TableColumn fx:id="checkOutColumn" text="Check-out Date"/>
+                    <TableColumn fx:id="priceColumn" text="Price ($)"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+    <left>
+        <VBox spacing="10" alignment="TOP_CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button fx:id="viewCalendarButton" text="View Calendar" maxWidth="150"/>
+            <Button fx:id="viewMyReservationsButton" text="My Reservations" maxWidth="150"/>
+            <Button fx:id="viewAllReservationsButton" text="All Reservations" maxWidth="150"/>
+            <Button fx:id="manageUsersButton" text="Manage Users" maxWidth="150"/>
+            <Separator/>
+            <Button fx:id="reportButton" text="Show Report" maxWidth="150"/>
+            <Separator/>
+            <Button fx:id="viewLogsButton" text="View Logs" maxWidth="150"/>
+        </VBox>
+    </left>
+</BorderPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.UserManagementController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+    
+    <Label text="User Management" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+    
+    <TableView fx:id="userTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="loginColumn" text="Login"/>
+            <TableColumn fx:id="roleColumn" text="Role"/>
+        </columns>
+    </TableView>
+    
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add User" onAction="#showAddUserDialog"/>
+        <Button text="Change Role" onAction="#showChangeRoleDialog"/>
+        <Button text="Delete User" onAction="#deleteUser"/>
+    </HBox>
+</VBox>
