@@ -34,22 +34,22 @@ A hotel reservation management application built in Java, using JavaFX for the g
 1. **Database Setup**:
    - Install PostgreSQL.
    - Create a database:
-     ```sql
+     
 CREATE DATABASE hotel;
 Ensure the user postgres with password 12345 is configured (or update settings in DatabaseConnector.java).
 Project Build:
 
 Clone the repository:
-git clone https://github.com/Batyr21a/Hotel_Reservation_System
+```git clone https://github.com/Batyr21a/Hotel_Reservation_System```
 
 Navigate to the project folder:
-cd Hotel_Reservation_System
+```cd Hotel_Reservation_System```
 
 Build the project:
-mvn clean install
+```mvn clean install```
 
 Run the Application:
-mvn exec:java -Dexec.mainClass="com.example.HotelReservationApp"
+```mvn exec:java -Dexec.mainClass="com.example.HotelReservationApp"```
 
 Test Credentials:
 Administrator: login admin, password admin.
