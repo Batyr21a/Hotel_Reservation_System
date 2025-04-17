@@ -1,38 +1,38 @@
-# Ignore node_modules folder
+
 node_modules/
 
-# Ignore log files
+
 *.log
 logs/
 
-# Ignore environment files
+
 .env
 .env.local
 
-# Ignore build outputs
+
 dist/
 build/
 target/
 
-# Ignore compiled Java files
+
 *.class
 
-# Ignore compiled FXML files in target directory
+
 target/classes/**/*.fxml
 
-# Ignore system files
+
 .DS_Store
 Thumbs.db
 
-# Ignore IDE-specific files
+
 .vscode/
 .idea/
 *.iml
 
-# Ignore temporary files
+
 *.tmp
 *.swp
 
-# Ignore Maven-specific files
+
 .mvn/
-!**/src/main/resources/**  # Keep resources like FXML files
+!**/src/main/resources/** 
