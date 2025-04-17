@@ -102,3 +102,8 @@ CSV Processing: Escapes special characters, validates format.
 Login Window:
 ![image](https://github.com/user-attachments/assets/ba5a82d4-6097-4a12-a213-c7be06115ab2)
 
+Main Menu:
+![image](https://github.com/user-attachments/assets/fa3da1a2-d130-475a-831a-0a50adf757cb)
+
+Reservation Calendar:
+
