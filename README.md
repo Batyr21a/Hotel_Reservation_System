@@ -1,81 +1,99 @@
 # Hotel Reservation System
 
-A modern, user-friendly hotel reservation management application built with a graphical user interface (GUI) and a robust PostgreSQL database. 
-This system streamlines hotel operations by providing secure authentication, role-based access, and comprehensive CRUD functionality for users, 
-rooms, and bookings. It also supports data import/export and detailed report generation.
+## Description
+A hotel reservation management application built in Java, using JavaFX for the graphical interface and PostgreSQL for data storage. It supports creating, viewing, updating, and deleting reservations, managing users and rooms, importing/exporting data in CSV format, and generating reports.
 
 **Author**: Batyr Batyrov
 
----
-
-## Features
-
-- **Secure Authentication**: Login with username and password, ensuring only authorized access.
-- **Role-Based Access Control**: Separate roles for admins (full control) and users (limited access).
-- **Booking Management**: Create, view, update, and delete bookings with ease.
-- **Room Availability**: Check available rooms by date using an intuitive calendar interface.
-- **Room Price Management**: Admins can set and update room prices dynamically.
-- **User Management**: Admins can manage user accounts.
-- **Data Import/Export**: Import and export bookings in CSV format for seamless data handling.
-- **Report Generation**: Generate detailed system status reports for operational insights.
-- **Graphical Interface**: A clean and modern GUI with a booking calendar for visual scheduling.
-- **Operation Logging**: All actions are logged for auditing and troubleshooting.
-
----
-
-## Objectives
-
-1. Implement full **CRUD operations** for users, rooms, and bookings.
-2. Provide secure **authentication** and **role-based access** to ensure data integrity.
-3. Enable **data import/export** and **report generation** for efficient hotel management.
-
----
+## Project Goals
+- Provide convenient management of reservations, rooms, and users through a graphical interface.
+- Implement role-based access (administrator and user).
+- Support data import/export and report generation.
 
 ## Requirements
+1. User authentication via login and password.
+2. Role-based access: administrator (full access) and user (limited access).
+3. Create, view, update, and delete reservations.
+4. Display available rooms for selected dates.
+5. Manage room prices (administrators only).
+6. Manage users: add, update roles, delete (administrators only).
+7. Import and export reservation and user data in CSV format.
+8. Generate reports on system status (room, reservation, and occupancy statistics).
+9. Graphical interface with a reservation calendar.
+10. Log all operations to a file.
 
-1. **User Authentication**: Secure login system with username and password.
-2. **Role Separation**: Distinct admin and user roles with appropriate permissions.
-3. **Booking CRUD**: Create, read, update, and delete bookings.
-4. **Room Availability Check**: Display available rooms for selected dates.
-5. **Room Price Management**: Admins can manage room pricing.
-6. **User Management**: Admins can manage user accounts.
-7. **CSV Import/Export**: Support for importing/exporting booking data in CSV format.
-8. **System Reports**: Generate reports on system status and bookings.
-9. **Graphical Interface**: A user-friendly GUI with a booking calendar.
-10. **Operation Logging**: Log all system operations for transparency.
+## Installation and Setup
 
----
+### Required Software
+- Java 17 or higher
+- PostgreSQL 13 or higher
+- Maven
+- PostgreSQL JDBC driver
 
-## Documentation
+### Installation Steps
+1. **Database Setup**:
+   - Install PostgreSQL.
+   - Create a database:
+     ```sql
+CREATE DATABASE hotel;
 
-### Algorithms
+Ensure the user postgres with password 12345 is configured (or update settings in DatabaseConnector.java).
+Project Build:
 
-- **Room Availability Search**: Utilizes an SQL query to exclude booked rooms for a given date range:
+Clone the repository:
+git clone https://github.com/Batyr21a/Hotel_Reservation_System
 
-  ```sql
-  SELECT * FROM rooms
-  WHERE room_id NOT IN (
-      SELECT room_id FROM bookings
-      WHERE check_in <= :end_date AND check_out >= :start_date
-  );Booking Validation: Checks for date conflicts before creating a new booking.
-  
-Report Generation: Aggregates data from bookings and rooms to produce summary reports.
-Data Structures
-ArrayLists: Used in memory to store lists of users, rooms, and bookings for quick access.
-Database Tables:
-users: Stores user credentials and roles.
-rooms: Stores room details (e.g., room number, price, type).
-bookings: Stores booking information (e.g., user, room, check-in/out dates).
-logs: Stores operation logs with timestamps and descriptions.
-Modules
-UserDao: Handles database operations for user management (e.g., login, CRUD).
-RoomDao: Manages room-related database operations (e.g., availability, pricing).
-BookingDao: Manages booking-related database operations.
-DataService: Handles CSV import/export and report generation.
-MainMenuController: Controls the main GUI, including navigation and calendar display.
-LogService: Logs all operations to the database for auditing.
-Challenges
-PostgreSQL Configuration: Ensuring proper database setup and connection pooling.
-CSV Error Handling: Validating and processing malformed CSV files gracefully.
-Concurrent Bookings: Preventing double bookings through transaction locking.
-GUI Responsiveness: Optimizing the calendar interface for large datasets.
+Navigate to the project folder:
+cd Hotel_Reservation_System
+
+Build the project:
+mvn clean install
+
+Run the Application:
+mvn exec:java -Dexec.mainClass="com.example.HotelReservationApp"
+
+Test Credentials:
+Administrator: login admin, password admin.
+User: login user, password user.
+
+### Project Structure
+com.example.model: Data classes (User, Room, Reservation).
+com.example.dao: Database access classes (UserDAO, RoomDAO, ReservationDAO).
+com.example.service: Business logic (AuthService, DataService).
+com.example.ui: Interface controllers (MainMenuController, ReservationCalendarController).
+com.example.util: Utilities (DatabaseConnector, CsvHandler).
+resources: Interface files (FXML).
+
+### Key Features
+Authentication: Login with role-based access.
+Reservations: Create, view, and delete via a calendar.
+Room Management: Update prices (administrators only).
+User Management: Add, update roles, delete (administrators only).
+Import/Export: Save and load data in CSV format.
+Reports: Statistics on rooms, reservations, and occupancy.
+Logging: Operations logged to logs/hotel.log.
+
+### Documentation
+Algorithms
+Available Room Search: SQL query excludes booked rooms for given dates.
+CSV Processing: Escapes special characters, validates format.
+## Data Structures
+- **In-Memory**: `ArrayList` for `User`, `Room`, `Reservation` objects.
+- **Database**: Tables `users`, `rooms`, `reservations` with foreign keys.
+
+## Modules
+- `UserDAO`: Handles user database operations.
+- `CsvHandler`: Manages CSV import/export.
+- `MainMenuController`: Controls the main interface window.
+
+## Challenges and Solutions
+- **Challenge**: Incorrect CSV format during import.  
+  **Solution**: Validate headers and fields in `CsvHandler`, use `CsvHandlerException`.
+- **Challenge**: Database connection errors.  
+  **Solution**: Transactions with rollback and error logging.
+
+## Test Cases
+- Invalid password login: Displays an error message.
+- Booking an occupied room: Reservation is rejected.
+- Importing invalid CSV: Shows an error.
+- Updating room price: Reflected in the table.
