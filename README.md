@@ -36,7 +36,6 @@ A hotel reservation management application built in Java, using JavaFX for the g
    - Create a database:
      ```sql
 CREATE DATABASE hotel;
-
 Ensure the user postgres with password 12345 is configured (or update settings in DatabaseConnector.java).
 Project Build:
 
