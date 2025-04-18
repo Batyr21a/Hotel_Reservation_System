@@ -100,34 +100,44 @@ CSV Processing: Escapes special characters, validates format.
   
 ## Screenshots
 Login Window:
+
 ![image](https://github.com/user-attachments/assets/ba5a82d4-6097-4a12-a213-c7be06115ab2)
 
 Main Menu:
+
 ![image](https://github.com/user-attachments/assets/fa3da1a2-d130-475a-831a-0a50adf757cb)
 
 Reservation Calendar:
+
 ![image](https://github.com/user-attachments/assets/b8f9f56b-35e1-4704-8c79-6827370a19e0)
 
 Reservation:
+
 ![image](https://github.com/user-attachments/assets/4b1a5afb-c741-467c-bbe4-8de230e77fb5)
 
 Change price list:
+
 ![image](https://github.com/user-attachments/assets/9fa0c73b-e3e0-4520-a88b-f95f3135a64f)
 
 All reservation:
+
 ![image](https://github.com/user-attachments/assets/f184f9a4-437b-4137-9a59-4905c6b3b01d)
 
 Manage role:
+
 ![image](https://github.com/user-attachments/assets/acdba34d-771b-4d57-b1bc-f099fa02c0b4)
 
 Reports:
+
 ![image](https://github.com/user-attachments/assets/0295f642-f62b-45b4-bced-b1cc7513726e)
 
 Logs:
+
 ![image](https://github.com/user-attachments/assets/ab6d7d82-be57-4247-b570-9419ba37f0ac)
 
 ### It was role admin and you can see user's role:
 Menu:
+
 ![image](https://github.com/user-attachments/assets/4f99c2cd-a8e1-4de6-b2d4-4d60c3cc93c9)
 
 
