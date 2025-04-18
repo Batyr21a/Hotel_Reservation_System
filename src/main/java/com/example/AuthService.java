@@ -5,10 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.example.Database.DatabaseConnector;
-import com.example.User.User;
-import com.example.User.UserDAO;
-
 public class AuthService {
     private final UserDAO userDAO;
 

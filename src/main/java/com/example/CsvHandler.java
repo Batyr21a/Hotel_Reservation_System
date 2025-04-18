@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-import com.example.Reservation.Reservation;
-import com.example.User.User;
-
 public class CsvHandler {
     private static final Logger LOGGER = Logger.getLogger(CsvHandler.class.getName());
     private static final String CSV_DELIMITER = ",";

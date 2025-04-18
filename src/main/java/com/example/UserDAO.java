@@ -1,10 +1,8 @@
-package com.example.User;
+package com.example;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-
-import com.example.Database.DatabaseConnector;
 
 public class UserDAO {
     private static final Logger LOGGER = Logger.getLogger(UserDAO.class.getName());

@@ -1,11 +1,9 @@
-package com.example.Reservation;
+package com.example;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-
-import com.example.Database.DatabaseConnector;
 
 public class ReservationDAO {
     private static final Logger LOGGER = Logger.getLogger(ReservationDAO.class.getName());

@@ -1,17 +1,10 @@
-package com.example.Database;
+package com.example;
 
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.List;
 import java.io.*;
 import java.util.logging.Logger;
-
-import com.example.Reservation.Reservation;
-import com.example.Reservation.ReservationDAO;
-import com.example.Room.Room;
-import com.example.Room.RoomDAO;
-import com.example.User.User;
-import com.example.User.UserDAO;
 
 public class DataService {
     private static final Logger LOGGER = Logger.getLogger(DataService.class.getName());

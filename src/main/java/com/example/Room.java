@@ -1,4 +1,4 @@
-package com.example.Room;
+package com.example;
 
 public class Room {
     private int roomNumber;

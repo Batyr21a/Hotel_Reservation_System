@@ -1,0 +1,21 @@
+[2025-04-18 11:22:31] [INFO] com.example.Database.DatabaseConnector getConnection: DB connected
+[2025-04-18 11:22:32] [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue: Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 20
+[2025-04-18 11:22:39] [INFO] com.example.LoginController handleLogin: Login attempt for username: admin
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector getConnection: DB connected
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector commit: Transaction committed
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector getConnection: DB connected
+[2025-04-18 11:22:39] [INFO] com.example.LoginController handleLogin: Login result: Success
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector getConnection: DB connected
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector commit: Transaction committed
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector getConnection: DB connected
+[2025-04-18 11:22:39] [INFO] com.example.Database.DatabaseConnector commit: Transaction committed
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'roomNumber' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@6fad9e71 with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'roomType' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@5d20abb5 with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'guestName' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@4fe34fec with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'guestSurname' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@2e09c488 with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'checkIn' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@51b1eec6 with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'checkOut' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@3b75f50b with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:40] [WARNING] javafx.scene.control.cell.PropertyValueFactory getCellDataReflectively: Can not retrieve property 'price' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@7a5b01ca with provided class type: class com.example.Reservation.ReservationDisplay
+[2025-04-18 11:22:41] [SEVERE] com.example.MainMenuController showCalendar: Failed to open calendar: 
+/C:/Users/batyr/OneDrive/Desktop/Hotel_Reservation_System/target/classes/com/example/ReservationCalendarView.fxml:9
+

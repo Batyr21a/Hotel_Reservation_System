@@ -1,12 +1,10 @@
-package com.example.Room;
+package com.example;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-
-import com.example.Database.DatabaseConnector;
 
 public class RoomDAO {
     private static final Logger LOGGER = Logger.getLogger(RoomDAO.class.getName());

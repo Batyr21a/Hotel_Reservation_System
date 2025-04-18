@@ -7,8 +7,6 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import java.util.logging.Logger;
 
-import com.example.User.User;
-
 public class LoginController {
     @FXML private TextField usernameField;
     @FXML private PasswordField passwordField;

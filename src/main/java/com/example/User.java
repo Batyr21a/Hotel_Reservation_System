@@ -1,4 +1,4 @@
-package com.example.User;
+package com.example;
 
 public record User(int id, String login, String role) {
     public boolean isAdmin() {

@@ -1,4 +1,4 @@
-package com.example.Room;
+package com.example;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,11 +1,8 @@
-package com.example.Room;
+package com.example;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-
-import com.example.Database.DataService;
-
 import javafx.collections.FXCollections;
 
 public class RoomPricesController {

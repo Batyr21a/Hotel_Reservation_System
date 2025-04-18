@@ -11,8 +11,6 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.logging.LogManager;
 
-import com.example.Database.DatabaseInitializer;
-
 public class HotelReservationApp extends Application {
     @Override
     public void start(Stage primaryStage) {

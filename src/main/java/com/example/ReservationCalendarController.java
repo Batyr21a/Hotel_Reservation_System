@@ -1,4 +1,4 @@
-package com.example.Reservation;
+package com.example;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -9,10 +9,6 @@ import javafx.geometry.Pos;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import java.util.logging.Logger;
-
-import com.example.Database.DataService;
-import com.example.Room.Room;
-import com.example.User.User;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
