@@ -88,18 +88,31 @@ Batyr Batyrov
 
 ## Screenshots
 ![Снимок экрана 2025-05-15 120542](https://github.com/user-attachments/assets/7af29ba3-0d81-4090-a5f8-e52d3d66d716)
+
 ![Снимок экрана 2025-05-15 120731](https://github.com/user-attachments/assets/1c48aac8-8421-43bb-babd-1cbeb71b6e3e)
+
 ![Снимок экрана 2025-05-15 120828](https://github.com/user-attachments/assets/21d3f044-5552-4e62-821b-795c4b4d46e1)
+
 ![Снимок экрана 2025-05-15 121134](https://github.com/user-attachments/assets/f8152ef5-c94e-4cd4-bab4-0ea1ef898b11)
+
 ![Снимок экрана 2025-05-15 121154](https://github.com/user-attachments/assets/3bfc1f68-13ff-42be-9abf-5136b390c72b)
+
 ![Снимок экрана 2025-05-15 121301](https://github.com/user-attachments/assets/48248516-f0ad-44f9-a7a2-5c8fb2d99e4b)
+
 ![Снимок экрана 2025-05-15 121753](https://github.com/user-attachments/assets/1c119977-7cf1-4a00-b34c-f2d03b450bec)
+
 ![Снимок экрана 2025-05-15 122113](https://github.com/user-attachments/assets/d2b86a75-f19f-425e-8671-d13a7ab2bb28)
+
 ![Снимок экрана 2025-05-15 122217](https://github.com/user-attachments/assets/a8cbe555-a299-406b-9a33-4b83e65b1d12)
+
 ![Снимок экрана 2025-05-15 122242](https://github.com/user-attachments/assets/25009522-e65a-4e58-8024-f8fe63a02ae8)
+
 ![Снимок экрана 2025-05-15 122608](https://github.com/user-attachments/assets/9ac31ec3-54ad-401b-9808-94c778e07487)
+
 ![Снимок экрана 2025-05-15 122713](https://github.com/user-attachments/assets/eb17600a-bd88-45f2-8f5a-a9e6dcef96ca)
+
 ![Снимок экрана 2025-05-15 122803](https://github.com/user-attachments/assets/377d178d-1db7-4680-83cc-64723c244efc)
+
 ![image](https://github.com/user-attachments/assets/43f8c44c-0ff6-477d-85a6-f63e6f2392a6)
 
 
