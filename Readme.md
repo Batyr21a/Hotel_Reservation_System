@@ -87,3 +87,39 @@ Batyr Batyrov
 - **Updating room price:** Reflected in the Excel file.
 
 ### Screenshots
+![Снимок экрана 2025-05-15 120542](https://github.com/user-attachments/assets/7af29ba3-0d81-4090-a5f8-e52d3d66d716)
+![Снимок экрана 2025-05-15 120731](https://github.com/user-attachments/assets/1c48aac8-8421-43bb-babd-1cbeb71b6e3e)
+![Снимок экрана 2025-05-15 120828](https://github.com/user-attachments/assets/21d3f044-5552-4e62-821b-795c4b4d46e1)
+![Снимок экрана 2025-05-15 121134](https://github.com/user-attachments/assets/f8152ef5-c94e-4cd4-bab4-0ea1ef898b11)
+![Снимок экрана 2025-05-15 121154](https://github.com/user-attachments/assets/3bfc1f68-13ff-42be-9abf-5136b390c72b)
+![Снимок экрана 2025-05-15 121301](https://github.com/user-attachments/assets/48248516-f0ad-44f9-a7a2-5c8fb2d99e4b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
