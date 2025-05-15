@@ -1,0 +1,37 @@
+# Ignore build output directories
+/target/
+
+# Ignore IDE-specific files
+/.idea/
+*.iml
+*.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore dependency libraries
+/lib/
+
+# Ignore Excel files
+*.xlsx
+
+# Ignore Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore other unnecessary files
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
