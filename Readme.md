@@ -100,6 +100,8 @@ Batyr Batyrov
 ![Снимок экрана 2025-05-15 122608](https://github.com/user-attachments/assets/9ac31ec3-54ad-401b-9808-94c778e07487)
 ![Снимок экрана 2025-05-15 122713](https://github.com/user-attachments/assets/eb17600a-bd88-45f2-8f5a-a9e6dcef96ca)
 ![Снимок экрана 2025-05-15 122803](https://github.com/user-attachments/assets/377d178d-1db7-4680-83cc-64723c244efc)
+![image](https://github.com/user-attachments/assets/43f8c44c-0ff6-477d-85a6-f63e6f2392a6)
+
 
 
 
