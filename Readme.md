@@ -1,5 +1,8 @@
 # Hotel Reservation System
 
+## Presentation 
+https://www.canva.com/design/DAGk9XTeK74/8bbLqMqMVA8K_7-M_QqGeg/edit?utm_content=DAGk9XTeK74&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Description
 A hotel reservation management application built in Java, utilizing Apache POI for Excel-based data storage and a console-based interface. It supports creating, viewing, updating, and deleting reservations, managing users and rooms, importing/exporting data in Excel format, and generating reports.
 
